@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+    background: #553D67;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container
+{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    height: 600px;
+    padding: 50px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+}
+/* .col
+{
+    display: flex;
+    flex-direction: row;
+} */

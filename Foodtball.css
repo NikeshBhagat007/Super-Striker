@@ -1,0 +1,94 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body
+    {
+        display: flex;
+        height: 100vh;
+        justify-content:center;
+        background-image: linear-gradient(to left,rebeccapurple,blueviolet);
+        box-sizing: border-box;
+    }
+    
+    .container
+    {
+        display: flex;
+        background:mediumslateblue;
+        flex-direction: column;
+        border-radius: 20px;
+        align-self:center;
+        width: 500px;
+        height: 45vh;
+    }
+    .row
+    {
+        display: flex;
+    }
+    .col
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container > .row{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .name
+    {
+        font-size: x-large;
+        margin: 20px 0px;
+        font-weight: bold;
+    }
+    .winnerImg
+    {
+        height: 80px;
+        width: 500px;
+    }
+    #result
+    {
+        font-size: xx-large;
+        margin-top: 0px;
+    }
+    .goals
+    {
+        font-size: x-large;
+        width: 150px;
+        justify-content: space-evenly;
+    }
+
+    .score
+    {
+        font-size: xx-large;
+    }
+
+    #indexNo
+    {
+        margin: 0px 2px;
+    }
+    .bull
+    {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        border:1px solid #000;
+        border-radius: 50%;
+    }
+
+    #btnShoot
+    {
+        border: none;
+        border-radius: 25px;
+        font-size: large;
+        margin: 20px 0px;
+        width: 250px;
+        height: 35px;
+        background: radial-gradient(black,silver);
+        color: white;
+        outline:none;
+    }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEFA-Penaulty ShootOut</title>
+    <link rel="stylesheet" href="./Foodtball.css">
+</head>
+<body>
+   <div class="container">
+       <div class="row winnerImg" id="result" hidden>
+        <!-- <img id="winImg" src="assets/confetti.png"  width="450px" height="50px" > -->
+       </div>
+       <div class="row">
+           <div class="col" >
+               <img class="profile-icon" src="assets/RealMadridFC.jpg" alt="Real Madrid" width="150px" height="150px">
+               <span class="name" id="team-1-name">Real Madrid </span>
+
+               <div class="row goals" id="team-1-round-shots" >
+                   <span class="bull" id="indexNo"></span>
+                   <span class="bull" id="indexNo"></span>
+                   <span class="bull" id="indexNo"></span>
+                   <span class="bull" id="indexNo"></span>
+                   <span class="bull" id="indexNo"></span>
+                </div>
+
+           </div>
+
+           <div class="col">
+               <div class="row score">
+                  <span id="team-1-goals"></span>
+                  <span>-</span>
+                  <span id="team-2-goals"></span>
+               </div>
+           </div>
+
+           <div class="col">
+            <img class="profile-icon"   src="assets/HescaFC.jpg" alt="Hesca" width="150px" height="150px" >
+            <span class="name" id="team-2-name">Huesca </span>
+                <div class="row round-shots" id="team-2-round-shots">
+                    <span class="bull" id="indexNo"></span>
+                    <span class="bull" id="indexNo"></span>
+                    <span class="bull" id="indexNo"></span>
+                    <span class="bull" id="indexNo"></span>
+                    <span class="bull" id="indexNo"></span>         
+                </div>
+           </div>
+     </div>
+     <div class="row">
+         <div>
+            <button id="btnShoot" onclick="handleShootButtonClick()"></button>
+         </div>
+       </div>
+       <script src="app.js"></script>
+ </div>
